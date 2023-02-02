@@ -1,0 +1,9 @@
+import math
+a = 1
+b = -9.831
+c = 1.27
+result_positive = (b-2*b + math.sqrt(b*b-4*a*c))/(2*a)
+result_negative = (b-2*b - math.sqrt(b*b-4*a*c))/(2*a)
+print(result_positive)
+print(result_negative)
+
